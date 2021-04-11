@@ -23,7 +23,7 @@ public class demo1 {
 		
 		WebDriver driver = new ChromeDriver	();
 		
-		driver.get("https://google.com");
+		driver.get("https://google.com");//lavi singh
 		
 		String x =driver.findElement(By.xpath("//*[@class='LX3sZb']/div/div/div/div/div[2]/a")).getText();
 		System.out.println(x);
